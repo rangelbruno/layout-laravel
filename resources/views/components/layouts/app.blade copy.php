@@ -10,7 +10,9 @@
     <!-- ============================================================== -->
     <!-- Start STYLES GLOBAL here -->
     <!-- ============================================================== -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+
     <link href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/css/plugins.css') }}" rel="stylesheet" type="text/css" />
     <!-- ============================================================== -->
@@ -68,12 +70,13 @@
     <script src="{{ url('assets/js/libs/jquery-3.1.1.min.js') }}"></script>
     <script src="{{ url('assets/bootstrap/js/popper.min.js') }}"></script>
     <script src="{{ url('assets/bootstrap/js/bootstrap.min.js') }}"></script>
-    <script src="{{ url('assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ url('assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js') }}">
+    </script>
     <script src="{{ url('assets/js/app.js') }}"></script>
     <script>
-        $(document).ready(function() {
-            App.init();
-        });
+    $(document).ready(function() {
+        App.init();
+    });
     </script>
     <script src="{{ url('assets/js/custom.js') }}"></script>
     <!-- ============================================================== -->
